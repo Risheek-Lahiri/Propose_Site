@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Proposal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Will You Marry Me?</h1>
+    </header>
+    <main>
+        <section id="proposal">
+            <h2>My Dearest Girlfriend,</h2>
+            <p>I have something very special to ask you...</p>
+            <p></p>
+            <button id="showVideoBtn">Watch the Video</button>
+            <div id="videoContainer">
+                <iframe width="250" height="445" src="1.mp4" frameborder="0" allowfullscreen></iframe>
+            </div>
+            <div id="responseButtons">
+                <button id="acceptBtn" style="display: none;">Accept</button>
+                <button id="rejectBtn" style="display: none;" onmouseover="moveButton()">Reject</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy;2024 Risheek Lahiri</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,93 @@
+/* styles.css */
+
+body {
+    background-image: url('2.jpg');
+    font-family: "Lovers Quarrel", cursive;
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh; /* Ensure the body covers at least the viewport height */
+    position: relative; /* Necessary for footer positioning */
+}
+
+header {
+    background-color: #f00c0c;
+    padding: 0px;
+    text-align: center;
+}
+
+main {
+    padding: 0px;
+    
+}
+
+#proposal {
+    text-align: center;
+    padding: 0px;
+}
+
+#showVideoBtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#showVideoBtn:hover {
+    background-color: #45a049;
+}
+
+#videoContainer {
+    display: none;
+    margin-top: 10px;
+}
+
+#responseButtons {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: center; /* Center the buttons horizontally */
+    margin-top: 5px; /* Add margin to separate from video container */
+}
+
+#responseButtons button {
+    margin: 10px; /* Add margin between buttons */
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+}
+
+#acceptBtn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+#acceptBtn:hover {
+    background-color: #45a049;
+}
+
+#rejectBtn {
+    background-color: #e70c0c;
+    color: white;
+}
+
+#rejectBtn:hover {
+    background-color: #d80b0b;
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    height:1%;
+    width: 100%;
+    
+    color: white;
+    text-align: left;
+    padding: 0px; /* Adjust padding to narrow the footer */
+}
+footer p {
+    font-size: small; /* Set text size to small */
+    font-family: 'Times New Roman', Times, serif;
+
+}
